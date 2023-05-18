@@ -1,0 +1,146 @@
+# vsim tb -l top.log -c -do "log -r /*; run -all;quit" -wlf waveform.wlf 
+# Start time: 12:52:36 on May 18,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.mul_if(fast)
+# Loading mtiUvm.uvm_pkg
+# Loading work.one(fast)
+# Loading work.top_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading /tools/mentor/questasim_10.6c/questasim/uvm-1.1d/linux/uvm_dpi.so
+# log -r /*
+#  run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test test...
+# UVM_INFO sequence.sv(17) @ 0: uvm_test_top.env.a.seqr@@gen [SEQ] a : 9  b : 1  y : 0
+# UVM_INFO driver.sv(23) @ 0: uvm_test_top.env.a.d [DRV] a : 9  b : 1  y : 0
+# UVM_INFO monitor.sv(27) @ 20: uvm_test_top.env.a.m [MON] a : 9  b : 1  y : 9
+# UVM_INFO scoreboard.sv(19) @ 20: uvm_test_top.env.s [SCO] Test Passed -> a : 9  b : 1  y : 9
+# ----------------------------------------------------------------
+# UVM_INFO sequence.sv(17) @ 20: uvm_test_top.env.a.seqr@@gen [SEQ] a : 1  b : 14  y : 0
+# UVM_INFO driver.sv(23) @ 20: uvm_test_top.env.a.d [DRV] a : 1  b : 14  y : 0
+# UVM_INFO monitor.sv(27) @ 40: uvm_test_top.env.a.m [MON] a : 1  b : 14  y : 14
+# UVM_INFO scoreboard.sv(19) @ 40: uvm_test_top.env.s [SCO] Test Passed -> a : 1  b : 14  y : 14
+# ----------------------------------------------------------------
+# UVM_INFO sequence.sv(17) @ 40: uvm_test_top.env.a.seqr@@gen [SEQ] a : 1  b : 3  y : 0
+# UVM_INFO driver.sv(23) @ 40: uvm_test_top.env.a.d [DRV] a : 1  b : 3  y : 0
+# UVM_INFO monitor.sv(27) @ 60: uvm_test_top.env.a.m [MON] a : 1  b : 3  y : 3
+# UVM_INFO scoreboard.sv(19) @ 60: uvm_test_top.env.s [SCO] Test Passed -> a : 1  b : 3  y : 3
+# ----------------------------------------------------------------
+# UVM_INFO sequence.sv(17) @ 60: uvm_test_top.env.a.seqr@@gen [SEQ] a : 15  b : 10  y : 0
+# UVM_INFO driver.sv(23) @ 60: uvm_test_top.env.a.d [DRV] a : 15  b : 10  y : 0
+# UVM_INFO monitor.sv(27) @ 80: uvm_test_top.env.a.m [MON] a : 15  b : 10  y : 150
+# UVM_INFO scoreboard.sv(19) @ 80: uvm_test_top.env.s [SCO] Test Passed -> a : 15  b : 10  y : 150
+# ----------------------------------------------------------------
+# UVM_INFO sequence.sv(17) @ 80: uvm_test_top.env.a.seqr@@gen [SEQ] a : 10  b : 6  y : 0
+# UVM_INFO driver.sv(23) @ 80: uvm_test_top.env.a.d [DRV] a : 10  b : 6  y : 0
+# UVM_INFO monitor.sv(27) @ 100: uvm_test_top.env.a.m [MON] a : 10  b : 6  y : 60
+# UVM_INFO scoreboard.sv(19) @ 100: uvm_test_top.env.s [SCO] Test Passed -> a : 10  b : 6  y : 60
+# ----------------------------------------------------------------
+# UVM_INFO sequence.sv(17) @ 100: uvm_test_top.env.a.seqr@@gen [SEQ] a : 5  b : 7  y : 0
+# UVM_INFO driver.sv(23) @ 100: uvm_test_top.env.a.d [DRV] a : 5  b : 7  y : 0
+# UVM_INFO monitor.sv(27) @ 120: uvm_test_top.env.a.m [MON] a : 5  b : 7  y : 35
+# UVM_INFO scoreboard.sv(19) @ 120: uvm_test_top.env.s [SCO] Test Passed -> a : 5  b : 7  y : 35
+# ----------------------------------------------------------------
+# UVM_INFO sequence.sv(17) @ 120: uvm_test_top.env.a.seqr@@gen [SEQ] a : 15  b : 12  y : 0
+# UVM_INFO driver.sv(23) @ 120: uvm_test_top.env.a.d [DRV] a : 15  b : 12  y : 0
+# UVM_INFO monitor.sv(27) @ 140: uvm_test_top.env.a.m [MON] a : 15  b : 12  y : 180
+# UVM_INFO scoreboard.sv(19) @ 140: uvm_test_top.env.s [SCO] Test Passed -> a : 15  b : 12  y : 180
+# ----------------------------------------------------------------
+# UVM_INFO sequence.sv(17) @ 140: uvm_test_top.env.a.seqr@@gen [SEQ] a : 9  b : 2  y : 0
+# UVM_INFO driver.sv(23) @ 140: uvm_test_top.env.a.d [DRV] a : 9  b : 2  y : 0
+# UVM_INFO monitor.sv(27) @ 160: uvm_test_top.env.a.m [MON] a : 9  b : 2  y : 18
+# UVM_INFO scoreboard.sv(19) @ 160: uvm_test_top.env.s [SCO] Test Passed -> a : 9  b : 2  y : 18
+# ----------------------------------------------------------------
+# UVM_INFO sequence.sv(17) @ 160: uvm_test_top.env.a.seqr@@gen [SEQ] a : 8  b : 4  y : 0
+# UVM_INFO driver.sv(23) @ 160: uvm_test_top.env.a.d [DRV] a : 8  b : 4  y : 0
+# UVM_INFO monitor.sv(27) @ 180: uvm_test_top.env.a.m [MON] a : 8  b : 4  y : 32
+# UVM_INFO scoreboard.sv(19) @ 180: uvm_test_top.env.s [SCO] Test Passed -> a : 8  b : 4  y : 32
+# ----------------------------------------------------------------
+# UVM_INFO sequence.sv(17) @ 180: uvm_test_top.env.a.seqr@@gen [SEQ] a : 2  b : 14  y : 0
+# UVM_INFO driver.sv(23) @ 180: uvm_test_top.env.a.d [DRV] a : 2  b : 14  y : 0
+# UVM_INFO monitor.sv(27) @ 200: uvm_test_top.env.a.m [MON] a : 2  b : 14  y : 28
+# UVM_INFO scoreboard.sv(19) @ 200: uvm_test_top.env.s [SCO] Test Passed -> a : 2  b : 14  y : 28
+# ----------------------------------------------------------------
+# UVM_INFO sequence.sv(17) @ 200: uvm_test_top.env.a.seqr@@gen [SEQ] a : 3  b : 13  y : 0
+# UVM_INFO driver.sv(23) @ 200: uvm_test_top.env.a.d [DRV] a : 3  b : 13  y : 0
+# UVM_INFO monitor.sv(27) @ 220: uvm_test_top.env.a.m [MON] a : 3  b : 13  y : 39
+# UVM_INFO scoreboard.sv(19) @ 220: uvm_test_top.env.s [SCO] Test Passed -> a : 3  b : 13  y : 39
+# ----------------------------------------------------------------
+# UVM_INFO sequence.sv(17) @ 220: uvm_test_top.env.a.seqr@@gen [SEQ] a : 15  b : 1  y : 0
+# UVM_INFO driver.sv(23) @ 220: uvm_test_top.env.a.d [DRV] a : 15  b : 1  y : 0
+# UVM_INFO monitor.sv(27) @ 240: uvm_test_top.env.a.m [MON] a : 15  b : 1  y : 15
+# UVM_INFO scoreboard.sv(19) @ 240: uvm_test_top.env.s [SCO] Test Passed -> a : 15  b : 1  y : 15
+# ----------------------------------------------------------------
+# UVM_INFO sequence.sv(17) @ 240: uvm_test_top.env.a.seqr@@gen [SEQ] a : 1  b : 1  y : 0
+# UVM_INFO driver.sv(23) @ 240: uvm_test_top.env.a.d [DRV] a : 1  b : 1  y : 0
+# UVM_INFO monitor.sv(27) @ 260: uvm_test_top.env.a.m [MON] a : 1  b : 1  y : 1
+# UVM_INFO scoreboard.sv(19) @ 260: uvm_test_top.env.s [SCO] Test Passed -> a : 1  b : 1  y : 1
+# ----------------------------------------------------------------
+# UVM_INFO sequence.sv(17) @ 260: uvm_test_top.env.a.seqr@@gen [SEQ] a : 1  b : 10  y : 0
+# UVM_INFO driver.sv(23) @ 260: uvm_test_top.env.a.d [DRV] a : 1  b : 10  y : 0
+# UVM_INFO monitor.sv(27) @ 280: uvm_test_top.env.a.m [MON] a : 1  b : 10  y : 10
+# UVM_INFO scoreboard.sv(19) @ 280: uvm_test_top.env.s [SCO] Test Passed -> a : 1  b : 10  y : 10
+# ----------------------------------------------------------------
+# UVM_INFO sequence.sv(17) @ 280: uvm_test_top.env.a.seqr@@gen [SEQ] a : 9  b : 12  y : 0
+# UVM_INFO driver.sv(23) @ 280: uvm_test_top.env.a.d [DRV] a : 9  b : 12  y : 0
+# UVM_INFO monitor.sv(27) @ 300: uvm_test_top.env.a.m [MON] a : 9  b : 12  y : 108
+# UVM_INFO scoreboard.sv(19) @ 300: uvm_test_top.env.s [SCO] Test Passed -> a : 9  b : 12  y : 108
+# ----------------------------------------------------------------
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 300: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   64
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [DRV]    15
+# [MON]    15
+# [Questa UVM]     2
+# [RNTST]     1
+# [SCO]    15
+# [SEQ]    15
+# [TEST_DONE]     1
+# ** Note: $finish    : /tools/mentor/questasim_10.6c/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 300 ns  Iteration: 54  Instance: /tb
+# End time: 12:53:00 on May 18,2023, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0
